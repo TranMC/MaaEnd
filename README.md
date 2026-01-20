@@ -12,4 +12,6 @@
 _✨ MAA 终末地小助手 ✨_
 <!-- prettier-ignore-end -->
 
-基于 [MaaFramework](https://github.com/MaaXYZ/MaaFramework) 全新架构，绝赞开发中……
+Powered by [MaaFramework](https://github.com/MaaXYZ/MaaFramework) & [MXU](https://github.com/MistEO/MXU)  
+
+绝赞开发中 🎉…… 
