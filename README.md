@@ -1,53 +1,53 @@
 # MXU
 
-**MXU** 是一个基于 [MaaFramework PI V2](https://github.com/MaaXYZ/MaaFramework/blob/main/docs/zh_cn/3.3-ProjectInterfaceV2%E5%8D%8F%E8%AE%AE.md) 协议的通用 GUI 客户端，使用 Tauri + React + TypeScript 构建。
+**MXU** is a universal GUI client based on the [MaaFramework PI V2](https://github.com/MaaXYZ/MaaFramework/blob/main/docs/zh_cn/3.3-ProjectInterfaceV2%E5%8D%8F%E8%AE%AE.md) protocol, built with Tauri + React + TypeScript.
 
-它可以解析任何符合 PI V2 标准的 `interface.json` 文件，为 MaaFramework 生态中的自动化项目提供开箱即用的图形界面。
+It can parse any `interface.json` file conforming to the PI V2 standard and provide out-of-the-box graphical interfaces for automation projects in the MaaFramework ecosystem.
 
-## ✨ 特性
+## ✨ Features
 
-- 📋 **任务管理** - 可视化配置任务列表，支持拖拽排序
-- 🔧 **多实例支持** - 同时管理多个独立运行的实例（标签页多开）
-- 🎮 **多控制器类型** - 支持 Adb、Win32、PlayCover、Gamepad
-- 🌍 **国际化** - 界面内置多种语言，自动加载 `interface.json` 中的翻译
-- 🎨 **明暗主题** - 支持 Light/Dark 主题切换
-- 📱 **实时截图** - 显示设备实时画面，可自定义帧率
-- 📝 **运行日志** - 查看任务执行日志和 Agent 输出
-- ⏰ **定时任务** - 支持配置定时执行策略
-- 🔄 **自动更新** - 支持 MirrorChyan 和 GitHub 自动下载更新
-- 🤖 **Agent 支持** - 支持 MaaAgentClient 实现自定义识别器和动作
+- 📋 **Task Management** - Visualize and configure task lists with drag-and-drop reordering support
+- 🔧 **Multi-Instance Support** - Manage multiple independent running instances simultaneously (tabbed multi-open)
+- 🎮 **Multiple Controller Types** - Support for Adb, Win32, PlayCover, and Gamepad
+- 🌍 **Internationalization** - Built-in multi-language UI with automatic translation loading from `interface.json`
+- 🎨 **Light/Dark Themes** - Support for switching between Light and Dark themes
+- 📱 **Real-Time Screenshots** - Display real-time device screen with customizable frame rate
+- 📝 **Execution Logs** - View task execution logs and Agent output
+- ⏰ **Scheduled Tasks** - Support for configuring scheduled execution policies
+- 🔄 **Auto-Update** - Support automatic downloads from MirrorChyan and GitHub
+- 🤖 **Agent Support** - Support for MaaAgentClient to implement custom recognizers and actions
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-### 依赖文件
+### Dependencies
 
-[MXU Releases](https://github.com/MistEO/MXU/releases) 中提供了单 exec 文件（mxu.exe），您需要配置以下依赖：
+[MXU Releases](https://github.com/MistEO/MXU/releases) provides a single executable file (mxu.exe). You need to configure the following dependencies:
 
-- [MaaFramework](https://github.com/MaaXYZ/MaaFramework/releases) 运行库 ( >= `v5.5.0-beta.1` ) ，将压缩包中的 `bin` 文件夹内容解压到 `maafw` 文件夹中
-- [interface.json](https://github.com/MaaXYZ/MaaFramework/blob/main/sample/interface.json) 及相关资源文件，请参考 [PI 协议文档](https://github.com/MaaXYZ/MaaFramework/blob/main/docs/zh_cn/3.3-ProjectInterfaceV2%E5%8D%8F%E8%AE%AE.md) 编写
+- [MaaFramework](https://github.com/MaaXYZ/MaaFramework/releases) runtime library ( >= `v5.5.0-beta.1` ). Extract the `bin` folder contents from the archive into the `maafw` folder
+- [interface.json](https://github.com/MaaXYZ/MaaFramework/blob/main/sample/interface.json) and related resource files. Please refer to the [PI Protocol Documentation](https://github.com/MaaXYZ/MaaFramework/blob/main/docs/zh_cn/3.3-ProjectInterfaceV2%E5%8D%8F%E8%AE%AE.md) for configuration
 
-目录结构如下
+Directory structure as follows:
 
 ```text
 your-project/
-├── mxu.exe (或 mxu / mxu.app)
+├── mxu.exe (or mxu / mxu.app)
 ├── maafw/
 │   ├── MaaFramework.dll (Windows)
 │   ├── MaaToolkit.dll
-│   └── ... 其他依赖库
+│   └── ... other dependencies
 ├── interface.json
 └── resource/
 ```
 
-随后双击打开 `mxu.exe` 即可！~
+Then double-click to open `mxu.exe`!
 
-### 用户文件
+### User Files
 
-用户配置保存在 `config` 文件夹中，调试日志保存在 `debug` 文件夹中。亦可在 设置 - 调试 中直接打开文件夹。
+User configuration is saved in the `config` folder, and debug logs are saved in the `debug` folder. You can also open the folder directly from Settings - Debug.
 
-## 📖 开发调试
+## 📖 Development & Debugging
 
-### 安装依赖
+### Install Dependencies
 
 **Node.js** (>= 18)
 
@@ -72,46 +72,46 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 ```
 
-**项目依赖**
+**Project Dependencies**
 
 ```bash
 pnpm install
 ```
 
-### 开发调试
+### Development Debugging
 
 ```bash
 pnpm tauri dev
 ```
 
-启动前端开发服务器和 Tauri 桌面应用，支持热重载。
+Start the frontend development server and Tauri desktop application with hot reload support.
 
-### 生产构建
+### Production Build
 
 ```bash
 pnpm tauri build
 ```
 
-构建产物位于 `src-tauri/target/release/` 目录。
+Build artifacts are located in the `src-tauri/target/release/` directory.
 
-## 🔧 技术栈
+## 🔧 Tech Stack
 
-| 类别     | 技术                                                |
+| Category | Technology |
 | -------- | --------------------------------------------------- |
-| 桌面框架 | [Tauri](https://tauri.app/) v2                      |
-| 后端语言 | [Rust](https://www.rust-lang.org/) 1.70+            |
-| 前端框架 | [React](https://react.dev/) 19                      |
-| 类型系统 | [TypeScript](https://www.typescriptlang.org/) 5.8   |
-| 样式方案 | [Tailwind CSS](https://tailwindcss.com/) 4          |
-| 状态管理 | [Zustand](https://zustand-demo.pmnd.rs/)            |
-| 国际化   | [i18next](https://www.i18next.com/) + react-i18next |
-| 拖拽排序 | [@dnd-kit](https://dndkit.com/)                     |
-| 图标     | [Lucide React](https://lucide.dev/)                 |
-| 构建工具 | [Vite](https://vitejs.dev/) 7                       |
+| Desktop Framework | [Tauri](https://tauri.app/) v2 |
+| Backend Language | [Rust](https://www.rust-lang.org/) 1.70+ |
+| Frontend Framework | [React](https://react.dev/) 19 |
+| Type System | [TypeScript](https://www.typescriptlang.org/) 5.8 |
+| Styling | [Tailwind CSS](https://tailwindcss.com/) 4 |
+| State Management | [Zustand](https://zustand-demo.pmnd.rs/) |
+| Internationalization | [i18next](https://www.i18next.com/) + react-i18next |
+| Drag & Drop | [@dnd-kit](https://dndkit.com/) |
+| Icons | [Lucide React](https://lucide.dev/) |
+| Build Tool | [Vite](https://vitejs.dev/) 7 |
 
-## 🤝 相关项目
+## 🤝 Related Projects
 
-- [MaaFramework](https://github.com/MaaXYZ/MaaFramework) - 基于图像识别的自动化黑盒测试框架
+- [MaaFramework](https://github.com/MaaXYZ/MaaFramework) - Automated black-box testing framework based on image recognition
 
 ## 📄 License
 
