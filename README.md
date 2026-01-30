@@ -1,118 +1,74 @@
-# MXU
+<!-- markdownlint-disable MD033 MD041 -->
+<p align="center">
+  <img alt="LOGO" src="https://maaend.com/MaaEnd-Tiny-512.png" width="256" height="256" />
+</p>
 
-**MXU** is a universal GUI client based on the [MaaFramework PI V2](https://github.com/MaaXYZ/MaaFramework/blob/main/docs/zh_cn/3.3-ProjectInterfaceV2%E5%8D%8F%E8%AE%AE.md) protocol, built with Tauri + React + TypeScript.
+<div align="center">
 
-It can parse any `interface.json` file conforming to the PI V2 standard and provide out-of-the-box graphical interfaces for automation projects in the MaaFramework ecosystem.
+# MaaEnd
 
-## ✨ Features
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable-next-line MD036 -->
+_✨ MAA End-stage Assistant ✨_
+<!-- prettier-ignore-end -->
 
-- 📋 **Task Management** - Visualize and configure task lists with drag-and-drop reordering support
-- 🔧 **Multi-Instance Support** - Manage multiple independent running instances simultaneously (tabbed multi-open)
-- 🎮 **Multiple Controller Types** - Support for Adb, Win32, PlayCover, and Gamepad
-- 🌍 **Internationalization** - Built-in multi-language UI with automatic translation loading from `interface.json`
-- 🎨 **Light/Dark Themes** - Support for switching between Light and Dark themes
-- 📱 **Real-Time Screenshots** - Display real-time device screen with customizable frame rate
-- 📝 **Execution Logs** - View task execution logs and Agent output
-- ⏰ **Scheduled Tasks** - Support for configuring scheduled execution policies
-- 🔄 **Auto-Update** - Support automatic downloads from MirrorChyan and GitHub
-- 🤖 **Agent Support** - Support for MaaAgentClient to implement custom recognizers and actions
+Powered by [MaaFramework](https://github.com/MaaXYZ/MaaFramework) & [MXU](https://github.com/MistEO/MXU)
 
-## 🚀 Quick Start
+Actively in development 🎉……
 
-### Dependencies
+</div>
 
-[MXU Releases](https://github.com/MistEO/MXU/releases) provides a single executable file (mxu.exe). You need to configure the following dependencies:
+## 📖 Usage Information
 
-- [MaaFramework](https://github.com/MaaXYZ/MaaFramework/releases) runtime library ( >= `v5.5.0-beta.1` ). Extract the `bin` folder contents from the archive into the `maafw` folder
-- [interface.json](https://github.com/MaaXYZ/MaaFramework/blob/main/sample/interface.json) and related resource files. Please refer to the [PI Protocol Documentation](https://github.com/MaaXYZ/MaaFramework/blob/main/docs/zh_cn/3.3-ProjectInterfaceV2%E5%8D%8F%E8%AE%AE.md) for configuration
+This is a **rapidly iterating** project, so there may be some small bugs 🐛 (we will work hard to eliminate them!)
 
-Directory structure as follows:
+Encountered issues? Feel free to submit an [ISSUE](https://github.com/MaaEnd/MaaEnd/issues) to report them, and we'll handle it ASAP! More exciting features are coming, stay tuned ✨
 
-```text
-your-project/
-├── mxu.exe (or mxu / mxu.app)
-├── maafw/
-│   ├── MaaFramework.dll (Windows)
-│   ├── MaaToolkit.dll
-│   └── ... other dependencies
-├── interface.json
-└── resource/
-```
+> 💡 **Tip**: New versions will update automatically, no manual operation needed~
 
-Then double-click to open `mxu.exe`!
+## ✨ Features Overview
 
-### User Files
+- 🎮 **Real-time Combat Assistance**: Ultimate AFK helper, completely freeing your hands!
+  - **Auto Story**: Skip dialogues with one click, intelligent branch selection, quick story progression, enjoy the experience! (Of course you can take your time reading if you want~)
+  - **Interaction Handling**: Auto-click guide cursors (pro hand guide operator), read instruction manuals, tap to continue, close archive voice notifications, never panic again!
+  - **Combat Assistance**: Auto normal attacks, cast skills, use ultimate abilities, perform combos, and lock targets for focused fire. Combat becomes effortless and elegant✨
+  - **Auto Pickup**: See sparkles and grab them, never miss any drops or collection points. Resource gathering made easy!
+  - **Convenient Operations**: Instant teleport confirmation, auto-slide down, maximize travel efficiency!
+- 🧩 **Puzzle Master**: AI's keen eye, solve all kinds of puzzles in seconds! Supports single-run speedrun, loop puzzle solving, demo mode (learn from the pros 😎).
+- 💰 **Auto Trading**: Trading expert online! Intelligently identify profit margins, auto buy low sell high, cross-region trading to earn price differences easily, financial freedom awaits!
+- 📐 **Blueprint Transport**: Building enthusiast's paradise! Batch import blueprints, intelligent parsing of share codes, industrial assembly lines built instantly, maximum efficiency!
+- 📅 **Daily Automation**: One-stop service for daily tasks! Auto-collect rewards, clear wiki red dots, claim production manuals, complete Baker tasks, significantly reduce daily grind 🎉
+- 💻 **Multi-platform Support**: Support for PC (Win32 API) and Android (ADB), wherever you are, we can help you relax~
 
-User configuration is saved in the `config` folder, and debug logs are saved in the `debug` folder. You can also open the folder directly from Settings - Debug.
+## 🛠️ Developer Guide
 
-## 📖 Development & Debugging
+Want to participate in development or learn more about the project? Check it out here 👉 [Developer Handbook](https://github.com/MaaEnd/MaaEnd/blob/main/docs/developers/development.md)
 
-### Install Dependencies
+All contributors welcome! Let's make MaaEnd stronger together! 💪
 
-**Node.js** (>= 18)
+## 💖 Thanks to Contributors
 
-```bash
-# macOS (Homebrew)
-brew install node
+Special thanks to all developers who contribute to MaaEnd! 🎉 You are all amazing!
 
-# Windows (winget)
-winget install OpenJS.NodeJS
-```
+[![Contributors](https://contrib.rocks/image?repo=MaaEnd/MaaEnd&max=1000)](https://github.com/MaaEnd/MaaEnd/graphs/contributors)
 
-**pnpm** (>= 8)
+With your contributions, MaaEnd becomes better every day~ ❤️
 
-```bash
-npm install -g pnpm
-```
+## 💬 Join the Community
 
-**Rust** (>= 1.70)
+Come hang out with us!
 
-```bash
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-source $HOME/.cargo/env
-```
+- 💬 **User QQ Group**: [1062010346](https://qm.qq.com/q/MN6XLvtZia)  
+  Usage questions, feature suggestions, casual chat, welcome to reach out~
+  
+- 👨‍💻 **Developer QQ Group**: [1072587329](https://qm.qq.com/q/EyirQpBiW4)  
+  This is the development group, developers welcome to join and build together! (Technical discussion only, usage questions please go to the user group)
 
-**Project Dependencies**
+## ☕ Buy Us a Coffee
 
-```bash
-pnpm install
-```
+If MaaEnd has saved you a lot of time, why not buy the developers a coffee?
 
-### Development Debugging
+Your support is our greatest motivation for continuous updates! 💖
 
-```bash
-pnpm tauri dev
-```
-
-Start the frontend development server and Tauri desktop application with hot reload support.
-
-### Production Build
-
-```bash
-pnpm tauri build
-```
-
-Build artifacts are located in the `src-tauri/target/release/` directory.
-
-## 🔧 Tech Stack
-
-| Category | Technology |
-| -------- | --------------------------------------------------- |
-| Desktop Framework | [Tauri](https://tauri.app/) v2 |
-| Backend Language | [Rust](https://www.rust-lang.org/) 1.70+ |
-| Frontend Framework | [React](https://react.dev/) 19 |
-| Type System | [TypeScript](https://www.typescriptlang.org/) 5.8 |
-| Styling | [Tailwind CSS](https://tailwindcss.com/) 4 |
-| State Management | [Zustand](https://zustand-demo.pmnd.rs/) |
-| Internationalization | [i18next](https://www.i18next.com/) + react-i18next |
-| Drag & Drop | [@dnd-kit](https://dndkit.com/) |
-| Icons | [Lucide React](https://lucide.dev/) |
-| Build Tool | [Vite](https://vitejs.dev/) 7 |
-
-## 🤝 Related Projects
-
-- [MaaFramework](https://github.com/MaaXYZ/MaaFramework) - Automated black-box testing framework based on image recognition
-
-## 📄 License
-
-[GNU Affero General Public License v3.0](LICENSE)
+<!-- markdownlint-disable MD045 -->
+[<img width="200" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.png">](https://afdian.com/a/misteo)
