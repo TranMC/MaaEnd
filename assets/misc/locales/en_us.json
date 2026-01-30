@@ -59,5 +59,17 @@
     "option.PuzzleSolverMode.cases.Single.label": "Single Run",
     "option.PuzzleSolverMode.cases.Loop.label": "Loop",
     "option.PuzzleSolverMode.cases.DryRun.label": "Demo Only",
-    "contact.file": "misc/locales/CONTACT/CONTACT.en_us.md"
+    "resource.official.label": "Official Server",
+    "resource.bilibili.label": "Bilibili Server",
+    "contact.file": "misc/locales/CONTACT/CONTACT.en_us.md",
+    "option.AutoCloseInteraction.label": "Auto Interaction Handling",
+    "option.AutoCloseInteraction.description": "When enabled, automatically handles: guide cursors, manual pagination, fullscreen continue prompts, archive closing, etc.",
+    "option.EnableTutorialGuide.label": "Click Guide Cursor",
+    "option.EnableTutorialGuide.description": "Automatically click white guide gestures/arrows that appear on screen",
+    "option.EnableTutorialBook.label": "Read Manual Pages",
+    "option.EnableTutorialBook.description": "Automatically page through and confirm manual tutorial popups",
+    "option.EnableClickAnywhere.label": "Click Anywhere to Continue",
+    "option.EnableClickAnywhere.description": "Automatically recognize and click fullscreen overlay prompts",
+    "option.EnableCloseSpecialPanel.label": "Close Story/Voice",
+    "option.EnableCloseSpecialPanel.description": "Automatically recognize and close story documents or voice recording interfaces"
 }

@@ -59,5 +59,17 @@
     "option.PuzzleSolverMode.cases.Single.label": "単回実行",
     "option.PuzzleSolverMode.cases.Loop.label": "繰り返し実行",
     "option.PuzzleSolverMode.cases.DryRun.label": "デモのみ",
-    "contact.file": "misc/locales/CONTACT/CONTACT.ja_jp.md"
+    "resource.official.label": "公式サーバー",
+    "resource.bilibili.label": "Bilibili サーバー",
+    "contact.file": "misc/locales/CONTACT/CONTACT.ja_jp.md",
+    "option.AutoCloseInteraction.label": "自動インタラクション処理",
+    "option.AutoCloseInteraction.description": "有効にすると、以下を自動処理します：ガイドカーソル、マニュアルのページ送り、全画面の続行プロンプト、アーカイブのクローズなど",
+    "option.EnableTutorialGuide.label": "ガイドカーソルをクリック",
+    "option.EnableTutorialGuide.description": "画面に表示される白いガイドジェスチャー/矢印を自動的にクリック",
+    "option.EnableTutorialBook.label": "マニュアルページを読む",
+    "option.EnableTutorialBook.description": "マニュアルチュートリアルのポップアップを自動的にページ送りして確認",
+    "option.EnableClickAnywhere.label": "どこでもクリックして続行",
+    "option.EnableClickAnywhere.description": "全画面オーバーレイプロンプトを自動的に認識してクリック",
+    "option.EnableCloseSpecialPanel.label": "ストーリー/ボイスを閉じる",
+    "option.EnableCloseSpecialPanel.description": "ストーリードキュメントまたは音声記録インターフェースを自動的に認識して閉じる"
 }

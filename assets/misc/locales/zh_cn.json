@@ -59,5 +59,17 @@
     "option.PuzzleSolverMode.cases.Single.label": "单次执行",
     "option.PuzzleSolverMode.cases.Loop.label": "重复执行",
     "option.PuzzleSolverMode.cases.DryRun.label": "仅演示",
-    "contact.file": "misc/locales/CONTACT/CONTACT.zh_cn.md"
+    "resource.official.label": "官服",
+    "resource.bilibili.label": "B 服",
+    "contact.file": "misc/locales/CONTACT/CONTACT.zh_cn.md",
+    "option.AutoCloseInteraction.label": "自动交互处理",
+    "option.AutoCloseInteraction.description": "开启后将自动处理：指引光标、说明书翻页、全屏点击继续、档案关闭等",
+    "option.EnableTutorialGuide.label": "点击指引光标",
+    "option.EnableTutorialGuide.description": "自动点击屏幕上出现的白色指引手势/箭头（老普之手！）",
+    "option.EnableTutorialBook.label": "翻阅说明书",
+    "option.EnableTutorialBook.description": "自动翻页并确认说明教程弹窗",
+    "option.EnableClickAnywhere.label": "点击任意处继续",
+    "option.EnableClickAnywhere.description": "自动识别并点击全屏遮罩提示",
+    "option.EnableCloseSpecialPanel.label": "关闭档案/语音",
+    "option.EnableCloseSpecialPanel.description": "自动识别并关闭剧情文档或语音记录界面"
 }

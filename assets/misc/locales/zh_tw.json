@@ -50,6 +50,8 @@
     "option.ImportMinimumProfit.label": "最低利潤",
     "option.ImportMinimumProfit.inputs.ImportMinimumProfit.label": "最低利潤值",
     "option.ImportMinimumProfit.inputs.ImportMinimumProfit.description": "當前最高利潤低於該值時，不進行購買，僅支援整數",
+    "task.Resell.label": "💰一鍵倒賣",
+    "task.Resell.description": "在彈性需求物資商店頁面，自動識別最高利潤貨物並進行購買。**請在彈性需求物資商店頁面開始任務**",
     "task.PuzzleSolver.label": "🧩自動解拼圖",
     "task.PuzzleSolver.description": "自動幫你通關拼圖小遊戲，太好了不用自己動腦子了.jpg",
     "option.PuzzleSolverMode.label": "模式",
@@ -57,5 +59,7 @@
     "option.PuzzleSolverMode.cases.Single.label": "單次執行",
     "option.PuzzleSolverMode.cases.Loop.label": "重複執行",
     "option.PuzzleSolverMode.cases.DryRun.label": "僅演示",
+    "resource.official.label": "官服",
+    "resource.bilibili.label": "B 服",
     "contact.file": "misc/locales/CONTACT/CONTACT.zh_tw.md"
 }

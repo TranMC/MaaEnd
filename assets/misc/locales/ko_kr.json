@@ -59,5 +59,17 @@
     "option.PuzzleSolverMode.cases.Single.label": "단일 실행",
     "option.PuzzleSolverMode.cases.Loop.label": "반복 실행",
     "option.PuzzleSolverMode.cases.DryRun.label": "데모만",
-    "contact.file": "misc/locales/CONTACT/CONTACT.ko_kr.md"
+    "resource.official.label": "공식 서버",
+    "resource.bilibili.label": "Bilibili 서버",
+    "contact.file": "misc/locales/CONTACT/CONTACT.ko_kr.md",
+    "option.AutoCloseInteraction.label": "자동 상호작용 처리",
+    "option.AutoCloseInteraction.description": "활성화되면 다음을 자동으로 처리합니다: 가이드 커서, 설명서 페이징, 전체 화면 계속 프롬프트, 아카이브 닫기 등",
+    "option.EnableTutorialGuide.label": "가이드 커서 클릭",
+    "option.EnableTutorialGuide.description": "화면에 나타나는 흰색 가이드 제스처/화살표를 자동으로 클릭",
+    "option.EnableTutorialBook.label": "설명서 페이지 읽기",
+    "option.EnableTutorialBook.description": "설명서 튜토리얼 팝업을 자동으로 페이징하여 확인",
+    "option.EnableClickAnywhere.label": "어디서나 클릭하여 계속",
+    "option.EnableClickAnywhere.description": "전체 화면 오버레이 프롬프트를 자동으로 인식하여 클릭",
+    "option.EnableCloseSpecialPanel.label": "스토리/음성 닫기",
+    "option.EnableCloseSpecialPanel.description": "스토리 문서 또는 음성 기록 인터페이스를 자동으로 인식하여 닫기"
 }
